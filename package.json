@@ -1,0 +1,19 @@
+{
+  "name": "automacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "play:open": "npx playwright test --ui",
+    "play:debug": "npx playwright test --debug",
+    "play:head": "npx playwright test --headed",
+    "play:report": "  npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+  }
+}
